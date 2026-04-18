@@ -1,5 +1,4 @@
 import os
-from time import time
 os.system("cls")
 
 print("BEM VINDO AO CAIXA ELETRONICO")
@@ -29,7 +28,6 @@ while quer_prosseguir == "sim":
     elif opcao == 3:
         valor_deposito = float(input("Digite o valor que deseja depositar: "))
         saldo += valor_deposito
-        time.sleep(3)
         print(f"Depósito realizado com sucesso! Seu novo saldo é: R${saldo}")
     elif opcao == 4:
         print("Obrigado por usar o caixa eletrônico. Até logo!")
